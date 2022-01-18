@@ -1,0 +1,7 @@
+To access Linux vm from oracle virtual machine install ssh service.
+sudo apt install ssh
+
+Command to mount cifs drive on linux:
+----------------------------------------
+sudo apt install cifs-utils
+sudo mount.cifs //192.168.1.5/shared /shared -o user=dilip,pass=College@2009
