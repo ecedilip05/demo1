@@ -5,3 +5,9 @@ Command to mount cifs drive on linux:
 ----------------------------------------
 sudo apt install cifs-utils
 sudo mount.cifs //192.168.1.5/shared /shared -o user=dilip,pass=College@2009
+
+
+git branch -m Master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
